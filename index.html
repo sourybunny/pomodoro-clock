@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>pomodoro clock</title>
+	<link rel="stylesheet" href="app.css">
+	<link href="https://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!-- <audio><source src="SoundFile.mp3" type="audio/mpeg" /></audio> -->
+<audio id="bell" preload="auto">
+						<source src="http://www.myinstants.com/media/sounds/boxing-bell.mp3" type="audio/mp3" />
+				</audio>
+<div class="container">
+  <h1>Pomodoro <br> Cl<span><i class="fa fa-clock-o" aria-hidden="true"></i></span>ck</h1>
+<img class="img" src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Tomato.png" alt="">
+<h3></h3>
+<div class="buttons">
+  <span class="length">BREAK</span> 
+  <span class="length">SESSION</span><br>
+<button class="button" id="break-minus">-</button><span class="num" id="break-length">  </span>
+<button class="button" id="break-plus">+</button>
+<button class="button" id="session-minus">-</button><span class="num" id="session-length"> </span><button class="button" id="session-plus">+</button>
+  </div>
+<p> </p>
+<div class="circle">
+  <p class="content">
+  </p>
+  <h2 id="time1"></h2>
+    
+  </div>
+<p></p>
+<button class="main button" id="start">start</button>
+<button class="main button" id="reset">reset</button>
+  </div>
+<h4>Made with <i class="fa fa-heart"></i> by <a href="https://codepen.io/souryacodes/"> sourya</a></h4>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
