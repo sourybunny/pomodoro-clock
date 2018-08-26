@@ -1,15 +1,17 @@
 body{
   background:#F44336;
+
 }
 .container{
   background:white;
-  margin:2% auto;
+  margin:3% auto;
   text-align:center;
   max-width:400px;
-  min-width:310px;
-  
+  min-width:300px;
+  height: auto;
+
 /*   border:2px solid red; */
-  box-shadow:-3px 3px 25px -3px black; 
+  box-shadow:-3px 3px 25px -3px black;
 /*   background:#FF5252; */
 /*   color:white; */
   color:#F44336;
@@ -43,6 +45,7 @@ h1{
 /*   color:red; */
 }
 
+
 .button{
   font-family:;
   outline:none;
@@ -60,7 +63,7 @@ h1{
 .num{
   font-size:1.8em;
   padding:10px;
-  
+
 }
 .circle{
   width:250px;
@@ -95,7 +98,7 @@ h2{
   color:white;
   box-shadow:-3px 2px 10px 2px #9CCC65;
   font-family:open sans;
-  
+
 }
 .button:active{
 /*   background:red; */
@@ -122,10 +125,41 @@ h4{
   font-family:open sans;
   text-decoration:none;
   text-align:center;
-  font-weight:200;  
+  font-weight:200;
   letter-spacing:2px;
 }
 a{
   color:white;
   text-decoration:none;
+}
+@media screen and (max-width: 400px){
+  h1{
+    font-size: 1.5em;
+  }
+  img{
+    width: 60px;
+    height: 60px;
+  }
+  .circle{
+    width:230px;
+    margin:10px auto;
+    padding:3px;
+    height:230px;
+    border-radius:50%;
+  /*   border:8px solid #F44336; */
+    text-align:center;
+    box-shadow:-3px 2px 10px 2px #9CCC65;
+    color:white;
+    background:#f44336;
+  /*   opacity:0.85; */
+  }
+  h2{
+    font-size:3em;
+    margin:auto;
+    width:200px;
+    font-weight:400;
+  /*   height=0px; */
+  /*   border:2px solid black; */
+  /*   border-radius:50%; */
+  }
 }
